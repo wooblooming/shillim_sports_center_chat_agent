@@ -1,0 +1,75 @@
+{
+  "trainingPhrases": [ {
+    "id": "58b396e2-87e6-4297-b057-0c12b45d5238",
+    "parts": [ {
+      "text": "오랜만이야",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "5c4307c8-ae9e-4a18-8d83-2771cb719d86",
+    "parts": [ {
+      "text": "안녕",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "beb778ae-8b66-44e1-90e2-6b8f5e4dda9a",
+    "parts": [ {
+      "text": "저기",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "7eac78c8-6ad3-4449-bc9d-fb5419295561",
+    "parts": [ {
+      "text": "잘 있었어",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "bab5a839-f699-4c33-bf5e-a2f6ecc05607",
+    "parts": [ {
+      "text": "반가워",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "3a6d53e5-335d-4a10-a6a1-7e75cced28b6",
+    "parts": [ {
+      "text": "오랜만",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "fd6e22d8-8b83-4f13-8a55-78597036364a",
+    "parts": [ {
+      "text": "어떻게 지냈어",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "4dd67e7c-8696-45d6-9f2b-6e7d3d715485",
+    "parts": [ {
+      "text": "잘 지냈니",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "id": "336437d6-97ba-49a8-8f95-71ba13cce8af",
+    "parts": [ {
+      "text": "오늘 어때",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

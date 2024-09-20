@@ -1,0 +1,12 @@
+{
+  "defaultLanguageCode": "ko",
+  "timeZone": "Asia/Tokyo",
+  "projectNumber": 660032462768,
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT"
+}

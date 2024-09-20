@@ -1,0 +1,108 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EB%A9%94%EC%9D%B8%EC%82%AC%EC%A7%841.jpg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1542",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "정보 보러가기",
+            "title": "신림체육센터",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "안녕하세요", "신림체육센터 봇입니다!😁" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "문의하실 내용을 간단히", "입력하시거나 아래 버튼을", "눌러주세요👇" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "1️⃣ 시설안내"
+            }, {
+              "text": "2️⃣ 이용안내"
+            }, {
+              "text": "3️⃣ 프로그램안내"
+            }, {
+              "text": "4️⃣ 강사소개"
+            }, {
+              "text": "5️⃣ 셔틀버스"
+            }, {
+              "text": "6️⃣ 오시는 길"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "10e6010f-edba-4ae3-8ce7-26ab10373c02"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "17ce3a82-daea-4f55-b680-e779f87a2310"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "95a7a6b1-b1d4-4f33-8d62-03e564636dfb"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "0c96f010-448a-4ef4-a01b-c86c27f93b24",
+    "languageCode": "ko"
+  } ]
+}
