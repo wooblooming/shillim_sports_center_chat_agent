@@ -1,0 +1,15 @@
+{
+  "name": "1a33ea6d-71b5-4b55-93b2-b4f215201da2",
+  "displayName": "이용안내",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "4482cafa-d0a3-4cf8-ae0c-60bb7e2325c8"
+  } ]
+}

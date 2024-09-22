@@ -71,6 +71,48 @@
       }
     },
     "name": "10e6010f-edba-4ae3-8ce7-26ab10373c02"
+  }, {
+    "intent": "redirect.시설안내",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "시설안내",
+    "name": "ff5f1ed7-b1a1-47dc-b1cf-cbbc8a19b02f"
+  }, {
+    "intent": "redirect.이용안내",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "이용안내",
+    "name": "7515a833-189c-4058-be1b-acb403c32f1f"
+  }, {
+    "intent": "redirect.프로그램안내",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "프로그램안내",
+    "name": "1d15b643-d1aa-45a7-a3b1-e7c8c1813d51"
+  }, {
+    "intent": "redirect.강사소개",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "강사소개",
+    "name": "dc14e3d9-8e76-4ef0-83ce-6d9cf23bb95c"
+  }, {
+    "intent": "redirect.셔틀버스",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "셔틀버스",
+    "name": "e8a4ec8f-3547-4ce8-aec7-8302598d59af"
+  }, {
+    "intent": "redirect.오시는길",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "오시는길",
+    "name": "a0b78079-8c7a-4994-885c-12808e6a9aed"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

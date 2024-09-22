@@ -1,0 +1,15 @@
+{
+  "name": "40f779a4-58d3-42aa-9c60-08df96ac9e10",
+  "displayName": "프로그램안내",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "9ce7c1dc-87ae-4165-844d-07f6615c3f8b"
+  } ]
+}

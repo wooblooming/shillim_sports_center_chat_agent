@@ -1,0 +1,76 @@
+{
+  "name": "91369e2b-1830-41a6-aa4c-2aee7aea1fb8",
+  "displayName": "back.title",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "1️⃣ 시설안내"
+          }, {
+            "text": "2️⃣ 이용안내"
+          }, {
+            "text": "3️⃣ 프로그램안내"
+          }, {
+            "text": "4️⃣ 강사소개"
+          }, {
+            "text": "5️⃣ 셔틀버스"
+          }, {
+            "text": "6️⃣ 오시는 길"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.강사소개",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "강사소개",
+    "name": "f422733c-328b-44c0-9e5a-a22f630f393b"
+  }, {
+    "intent": "redirect.셔틀버스",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "셔틀버스",
+    "name": "1e142614-bf34-43cd-aee7-cbe04fe7e604"
+  }, {
+    "intent": "redirect.시설안내",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "시설안내",
+    "name": "aa0da247-fb2c-4d4a-a5af-2fe44dcce437"
+  }, {
+    "intent": "redirect.오시는길",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "오시는길",
+    "name": "a1292d69-ec39-46c4-9694-1369138432fc"
+  }, {
+    "intent": "redirect.이용안내",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "이용안내",
+    "name": "42f3fa4b-e7df-47da-a702-335815a5dd4b"
+  }, {
+    "intent": "redirect.프로그램안내",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "프로그램안내",
+    "name": "1c42163e-d945-400b-8ad9-7befb49491b8"
+  } ]
+}

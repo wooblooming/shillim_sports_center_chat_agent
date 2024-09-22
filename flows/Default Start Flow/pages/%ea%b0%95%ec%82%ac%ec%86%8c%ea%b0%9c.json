@@ -1,0 +1,15 @@
+{
+  "name": "6bf81ab6-3694-4147-90d3-0dda4b6fb845",
+  "displayName": "강사소개",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "8d756a01-b6e7-43c3-a271-828cfc61a534"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "7e3fbee3-ed34-4391-bd7b-7bffde18b11d",
+  "displayName": "셔틀버스위치알림",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "위치"
+          } ],
+          "title": "👉셔틀버스위치알림 서비스👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "🚌셔틀버스위치알림 서비스 안내", "", "관악구시설관리공단에서 운영하는 셔틀버스의 실시간 위치를 확인할 수 있는 서비스입니다", "이용 고객님의 편의를 위해 셔틀버스 도착 알림 메시지 및 공지 사항을 제공합니다", "", "📱 일반 핸드폰 사용자", "- 신림체육센터 1층 접수처에서 서비스 신청", "- 셔틀버스 도착 알림 메시지 및 공지 사항 수신 가능", "", "📲 스마트폰 사용자", "- 헬로버스 앱을 설치하여 이용 가능", "- [앱 설치 방법]: 스마트폰 앱스토어에서 '헬로버스' 검색 또는 QR코드 스캔", "- 본인 전화번호 인증 후 이용 가능", "", "⚠️ 주의 사항", "- 등록되지 않은 전화번호로는 위치 확인 불가", "- 전화번호가 변경된 경우, 1층 접수처 방문 또는 ☎️ 02-2029-4500으로 연락", "", "🚏 도착 안내 설정", "1. 이용하시는 노선과 탑승 정거장을 설정해야 합니다", "2. 노선은 등록되어 있어야 하며, 탑승 정거장은 최대 2개까지 가능합니다", "", "🔗 더 자세한 내용은", "'헬로버스 이용방법'을 참고해주세요", "" ],
+          "type": "description"
+        }, {
+          "actionLink": "http://hellobus.co.kr/m/apps/download.html",
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A4%20%EB%A1%9C%EA%B3%A0.webp"
+            }
+          },
+          "subtitle": "▶ 다운로드 받기",
+          "title": "헬로버스",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "위치"
+          } ],
+          "text": "천천히 내리며 확인해주세요",
+          "title": "👉헬로버스 절차보기👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A4%20%EA%B0%80%EC%9D%B4%EB%93%9C.png",
+          "type": "image"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A41.png",
+          "type": "image"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A42.png",
+          "type": "image"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A43.png",
+          "type": "image"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A44.png",
+          "type": "image"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%97%AC%EB%A1%9C%EB%B2%84%EC%8A%A45.png",
+          "type": "image"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

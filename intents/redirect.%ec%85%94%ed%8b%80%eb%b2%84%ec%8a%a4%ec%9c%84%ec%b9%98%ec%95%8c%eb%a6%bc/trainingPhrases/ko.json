@@ -1,0 +1,93 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "🚌 셔틀버스위치알림",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🚌 ",
+      "auto": true
+    }, {
+      "text": "셔틀버스위치",
+      "auto": true
+    }, {
+      "text": "알림",
+      "auto": true
+    }, {
+      "text": " 확인하기",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🚌셔틀버스위치알림 확인하기",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "\u003c셔틀버스위치",
+      "auto": true
+    }, {
+      "text": "알림",
+      "auto": true
+    }, {
+      "text": " 확인하기\u003e",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "\u003c 셔틀버스위치",
+      "auto": true
+    }, {
+      "text": "알림",
+      "auto": true
+    }, {
+      "text": " 확인하기 \u003e",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "셔틀버스위치",
+      "auto": true
+    }, {
+      "text": "알림",
+      "auto": true
+    }, {
+      "text": " 확인하기",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "셔틀버스위치",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "셔틀버스위치알림확인하기",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "셔틀버스위치알림",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

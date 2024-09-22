@@ -1,0 +1,64 @@
+{
+  "name": "7d5288be-811b-462f-b6ad-e9ee3e7a75e3",
+  "displayName": "시설안내",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "오시는길"
+          } ],
+          "title": "👉시설 안내👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "👋 안녕하세요!", "신림체육센터 안내해드릴게요", "", "🔹 신림체육센터는 관악구민의 건강한 여가 생활을 지원하는", "다양한 생활체육 및 문화강좌 프로그램을 제공합니다", "센터는 쾌적한 환경에서 여러분의 건강과 체력을 증진할 수 있도록", "다양한 시설을 갖추고 있어요", "", "📍 위치: 관악구 난곡로 58길 13", "📞 번호: 02-2029-4500", "", "🏢 시설 규모: 대지면적 1,864㎡, 연면적 1,978㎡로", "지하 1층과 지상 3층으로 구성되어 있습니다" ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B7%9C%EB%AA%A8%20%EB%B0%8F%20%EC%A3%BC%EC%9A%94%EC%8B%9C%EC%84%A4%20.png",
+          "type": "image"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "b0591385-984a-4475-83b4-5e24053574ae"
+  } ]
+}

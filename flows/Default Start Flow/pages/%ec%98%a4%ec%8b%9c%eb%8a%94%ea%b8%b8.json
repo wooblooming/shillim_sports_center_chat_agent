@@ -1,0 +1,75 @@
+{
+  "name": "0c36c299-e509-45ad-9792-b7cd6bdcf6f3",
+  "displayName": "오시는길",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "오시는길"
+          } ],
+          "title": "👉오시는 길👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "📍위치 : 관악구 난곡로 58길13", "📞번호 : 02-2029-4500", "", "🔔주변 지하철🔔", "2호선 신대방역 주변입니다", "", "🔔주변 정류장🔔" ],
+          "type": "description"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%A3%BC%EB%B3%80%EC%A0%95%EB%A5%98%EC%9E%A5.png",
+          "type": "image"
+        }, {
+          "text": [ "🔔주변 버스🔔" ],
+          "type": "description"
+        }, {
+          "accessibilityText": "Product Image",
+          "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%A3%BC%EB%B3%80%EB%B2%84%EC%8A%A4.png",
+          "type": "image"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1547",
+          "title": "✅ 지도보기",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "ad9a7cd3-f6a9-4645-9c7b-76181c596891"
+  } ]
+}
