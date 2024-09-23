@@ -1,0 +1,43 @@
+{
+  "name": "df10f044-275a-41cb-88ea-158acd01afec",
+  "displayName": "back.프로그램안내",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "⏩ 수영"
+          }, {
+            "text": "⏩ 헬스"
+          }, {
+            "text": "⏩ 에어로빅"
+          }, {
+            "text": "⏩ 아쿠아로빅"
+          }, {
+            "text": "⏩ 유치어린이교육"
+          }, {
+            "text": "⏩ 문화/취미교육"
+          }, {
+            "text": "\u003c HOME \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "9546e6db-2160-42da-bad3-6ec3a6e9cd8b"
+  } ]
+}

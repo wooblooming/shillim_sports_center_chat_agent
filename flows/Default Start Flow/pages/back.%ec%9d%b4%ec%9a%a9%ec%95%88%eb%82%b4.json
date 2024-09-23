@@ -1,0 +1,43 @@
+{
+  "name": "f94066bd-4820-42f9-bd74-7fbbcc5dd8d3",
+  "displayName": "back.이용안내",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "⏩ 운영시간"
+          }, {
+            "text": "⏩ 접수방법"
+          }, {
+            "text": "⏩ 특별할인혜택"
+          }, {
+            "text": "⏩ 주차장이용"
+          }, {
+            "text": "⏩ 환급"
+          }, {
+            "text": "⏩ 반 변경"
+          }, {
+            "text": "\u003c HOME \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "6d9c76e0-bc40-4e1b-aa4c-98086a2a8f1f"
+  } ]
+}

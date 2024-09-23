@@ -4,6 +4,54 @@
   "form": {
   
   },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "운영시간"
+          } ],
+          "title": "👉신림체육센터 프로그램👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "📋 프로그램 안내", "", "신림체육센터에서는 다양한 연령과 관심사에 맞춘 다양한 프로그램을 운영하고 있습니다", "아래에서 원하는 프로그램을 선택하여 자세한 내용을 확인해 보세요!", "", "🏊‍♂️ 수영", "- 성인 및 어린이를 위한 수영강좌와", "자유 수영 등 다양한 수영 프로그램", "", "🏋️‍♂️ 헬스", "- 최신 장비를 갖춘 헬스장과 서킷트레이닝", "프로그램을 통해 건강한 체력 관리를 도와드립니다", "", "🧎‍♀️ 에어로빅", "- 신나는 음악에 맞춰 에너지를 발산할 수 있는", "'댄스로빅' 프로그램이 있습니다", "", "🏄‍♂️ 아쿠아로빅", "- 물 속에서 즐기는 아쿠아로빅과 댄스트롯아쿠아로 건강과 재미를 동시에!", "", "👯 유치어린이교육", "- 어린이를 위한 키즈 K-POP 방송댄스로 아이들의", "즐거운 놀이와 운동을 지원합니다", "", "💃 문화/취미교육", "- 요가, 필라테스, 밸리댄스, 척추운동, 줌바댄스 등", "다양한 취미와 건강 프로그램으로 여가를 즐기세요", "", "원하는 프로그램을 선택하고 더 자세한 내용을 확인해 보세요! 😊" ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "⏩ 수영"
+          }, {
+            "text": "⏩ 헬스"
+          }, {
+            "text": "⏩ 에어로빅"
+          }, {
+            "text": "⏩ 아쿠아로빅"
+          }, {
+            "text": "⏩ 유치어린이교육"
+          }, {
+            "text": "⏩ 문화/취미교육"
+          }, {
+            "text": "\u003c HOME \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
   "transitionRoutes": [ {
     "intent": "back.home",
     "triggerFulfillment": {
@@ -11,5 +59,313 @@
     },
     "targetPage": "back.title",
     "name": "9ce7c1dc-87ae-4165-844d-07f6615c3f8b"
+  }, {
+    "intent": "프로그램안내.수영",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "운영시간"
+            } ],
+            "title": "👉수영 안내👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🏊‍♂️ 수영 프로그램 안내", "", "⏰ 자유수영 시간", "", "✔ 평일 (월~금): 12:00 ~ 12:50", "", "✔ 토요일", "▪ 06:00 ~ 07:50", "▪ 09:00 ~ 10:50", "▪ 16:00 ~ 17:50", "▪ 19:00 ~ 20:50", "", "✔ 일요일", "▪ 09:00 ~ 10:50", "▪ 12:00 ~ 13:50", "▪ 15:00 ~ 16:50", "", "💰 자유수영 요금", "", "✔ 평일 (월~금): 3,400원 (성인)", "", "✔ 주말 (토,일)", "▪ 성인: 4,400원", "▪ 중고생: 3,000원", "▪ 어린이: 2,200원", "", "📅 오리발 강습", "", "▪ 월수금반: 월요일", "▪ 화목반: 목요일", "❗오리발 강습 시 오리발을 지참해 주세요. (초급반 제외)", "", "🏊‍♀️ 복합프로그램 안내", "", "✔ [수영 + 자유수영] 프로그램의 토요일 수업은 자유수영 시간에만 이용 가능하며,", "토요일 자유수영 시간 중 1회 이용할 수 있습니다" ],
+            "type": "description"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1544#/",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 오후,오전,자유,성인",
+            "title": "수영 시간표 확인하기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%EC%88%98%EC%98%81.png",
+            "type": "image"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%EC%9E%90%EC%9C%A0%EC%88%98%EC%98%81%EC%9D%BC%EC%9D%BC%EA%B6%8C.png",
+            "type": "image"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1514",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 신청 사이트로 이동",
+            "title": "수강신청 하러가기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "back.프로그램안내",
+    "name": "2a63cdb2-6070-4d4d-9094-df08f3254d4e"
+  }, {
+    "intent": "프로그램안내.헬스",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "운영시간"
+            } ],
+            "title": "👉헬스 안내👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🏋️‍♂️ 헬스 프로그램 안내", "", "💪 헬스장 이용", "", "✔ 운영 시간: 06:00~21:50 (월~토)", "- 주말 이용 시간: 06:00 ~ 17:50", "", "✔ 프로그램 및 요금", "▪ 헬스 (청소년) : 34,600원/월", "▪ 헬스 (성인) : 46,700원/월", "", "🏃‍♀️ 서킷트레이닝 프로그램", "✔ 시간: 20:00 ~ 20:50", "✔ 강습일: 월, 수, 금", "✔ 성인 : 100,000원/월" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%ED%97%AC%EC%8A%A4_%EC%84%9C%ED%82%B7%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D.png",
+            "type": "image"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1514",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 신청 사이트로 이동",
+            "title": "수강신청 하러가기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "back.프로그램안내",
+    "name": "cc6cfb6c-a38d-4d4a-8f79-b739163c2b58"
+  }, {
+    "intent": "프로그램안내.에어로빅",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "운영시간"
+            } ],
+            "title": "👉에어로빅 안내👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🧎‍♂️ 에어로빅 프로그램 안내", "", "🏃‍♀️ 댄스로빅 A", "", "✔ 시간: 10:00 ~ 10:50", "✔ 강습일: 월 ~ 금", "✔ 성인 : 51,000원/월", "", "🏃‍♀️ 댄스로빅 B", "", "✔ 시간: 11:00 ~ 11:50", "✔ 강습일: 월 ~ 금", "✔ 성인 : 51,000원/월", "", "🏃‍♀️ 댄스로빅 C", "", "✔ 시간: 19:00 ~ 19:50", "✔ 강습일: 월 ~ 금", "✔ 성인 : 51,000원/월" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%EC%97%90%EC%96%B4%EB%A1%9C%EB%B9%85.png",
+            "type": "image"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1514",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 신청 사이트로 이동",
+            "title": "수강신청 하러가기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "back.프로그램안내",
+    "name": "c5c76c16-db82-4456-b9b7-b353cf8b6393"
+  }, {
+    "intent": "프로그램안내.아쿠아로빅",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "운영시간"
+            } ],
+            "title": "👉아쿠아로빅 안내👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🏄‍♂️ 아쿠아로빅 프로그램 안내", "", "🏊‍♀️ 아쿠아로빅 프로그램 (A~G반)", "", "- 성인 : 50,700원/월", "✔ 아쿠아로빅 A", "11:00 ~ 11:50 (화, 목, 토)", "✔ 아쿠아로빅 B", "14:00 ~ 14:50 (화, 목, 토)", "✔ 아쿠아로빅 C", "08:00 ~ 08:50 (화, 목, 토)", "✔ 아쿠아로빅 D", "08:00 ~ 08:50 (월, 수, 금)", "✔ 아쿠아로빅 E", "13:00 ~ 13:50 (월, 수, 금)", "✔ 아쿠아로빅 F", "13:00 ~ 13:50 (화, 목, 토)", "✔ 아쿠아로빅 G", "15:00 ~ 15:50 (화, 목, 토)", "", "💃 댄스트롯 아쿠아 (3개월)", "", "- 성인 : 50,700원/3개월", "✔ 시간: 14:00 ~ 14:50 (월,수,금)", "✔ 특이사항: 3개월(1월~3월) 후 종료되며,", "이후 신규 접수만 가능합니다" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%EC%95%84%EC%BF%A0%EC%95%84%EB%A1%9C%EB%B9%85.png",
+            "type": "image"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1514",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 신청 사이트로 이동",
+            "title": "수강신청 하러가기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "back.프로그램안내",
+    "name": "32d2e7eb-81ad-4f4f-9fea-680bf957fa59"
+  }, {
+    "intent": "프로그램안내.유치어린이교육",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "운영시간"
+            } ],
+            "title": "👉유치어린이교육 안내👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "👯 유치어린이교육 프로그램 안내", "", "🧒 키즈 K-POP 방송댄스 A", "", "✔ 시간: 15:00 ~ 15:50", "✔ 강습일: 월, 수", "✔ 어린이 : 40,000원/월", "", "🧒 키즈 K-POP 방송댄스 B", "", "✔ 시간: 16:00 ~ 16:50", "✔ 강습일: 월, 수", "✔ 어린이 : 40,000원/월", "", "어린이들이 즐겁게 K-POP 댄스를 배우며 자신감을 키울 수 있는 프로그램입니다!", "궁금한 사항이 있으시면 언제든지 문의해 주세요! 😊" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%EC%9C%A0%EC%A7%80%EC%96%B4%EB%A6%B0%EC%9D%B4%EA%B5%90%EC%9C%A1.png",
+            "type": "image"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1514",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 신청 사이트로 이동",
+            "title": "수강신청 하러가기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "back.프로그램안내",
+    "name": "1639ca39-22a5-4bbd-a9f1-f48ac05bef50"
+  }, {
+    "intent": "프로그램안내.문화취미교육",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "운영시간"
+            } ],
+            "title": "👉문화/취미교육 안내👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🎨 문화/취미교육 프로그램 안내", "", "🧘‍♀️ 요가 \u0026 필라테스(성인)", "", "✔ 아침 요가: 09:00 ~ 09:50", "(월·수·금), 45,000원/월", "✔ 직장인 요가 A: 20:00 ~ 20:50", "(월·수·금), 45,000원/월", "✔ 빈야사 요가: 07:00 ~ 07:50", "(화·목), 38,000원/월", "✔ 필라테스: 07:00 ~ 07:50", "(월·수·금), 45,000원/월", "✔ 바디코어요가 A: 10:00 ~ 11:00", "(월·수·금), 50,000원/월", "✔ 바디코어요가 B: 08:00 ~ 08:50", "(화·목), 38,000원/월", "", "💃 댄스 프로그램(성인)", "", "✔ 밸리댄스: 20:00 ~ 20:50", "(화·목), 41,000원/월", "✔ 밸리댄스(작품반): 21:00 ~ 21:50", "(화·목), 72,000원/월", "✔ 힙합방송댄스: 21:00 ~ 21:50", "(월·수), 41,000원/월", "청소년가능", "✔ 라인줌바댄스: 12:00 ~ 12:50", "(월·수), 41,000원/월", "", "🕺 줌바 \u0026 SNPE 프로그램(청소년가능)", "✔ 줌바댄스: 14:00 ~ 14:50", "(월·화·목), 45,000원/월", "✔ 토요줌바댄스 A: 09:00 ~ 09:50", "(토), 24,000원/월", "✔ 토요줌바댄스 B: 10:00 ~ 10:50", "(토), 24,000원/월", "✔ SNPE 바른자세척추운동 A", "09:00 ~ 09:50 (화·목·토)", "60,000원/월", "(재료비 약 14만원 별도 (고관절벨트, 웨이브베개))", "✔ SNPE 바른자세척추운동 (주말)", "10:00 ~ 11:20 (토), 38,000원/월", "", "💡 주의사항", "", "주 1회 프로그램은 월 4회 기준이며, 공휴일도 수업 일수에 포함됩니다.", "수업일 변경: 월 5주차인 경우, 추가 수업은 진행되지 않습니다", "", "더 궁금한 사항이 있으시면 언제든지 문의해 주세요! 😊" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%95%88%EB%82%B4_%EB%AC%B8%ED%99%94%EC%B7%A8%EB%AF%B8%EA%B5%90%EC%9C%A1.png",
+            "type": "image"
+          }, {
+            "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1514",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+              }
+            },
+            "subtitle": "▶ 신청 사이트로 이동",
+            "title": "수강신청 하러가기",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "back.프로그램안내",
+    "name": "7d045ab1-0354-4e01-9d41-4e0cc4dc801a"
   } ]
 }

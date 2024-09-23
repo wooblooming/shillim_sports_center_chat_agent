@@ -4,6 +4,53 @@
   "form": {
   
   },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "운영시간"
+          } ],
+          "title": "👉강사 소개👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "💡 신림체육센터의 각 프로그램을 이끄는 전문 강사님들", "모든 강사님들은 풍부한 경험과 열정을 바탕으로, 회원님들의 건강한 생활을 돕고 있습니다!", "", "수영 프로그램 🏊", "아쿠아로빅 🌊", "헬스클럽 🏋️‍♂️", "에어로빅 \u0026 댄스 💃", "성인 문화/취미교육 🎨", "", "각 프로그램에 대한 더 자세한 정보는 언제든지 문의해 주세요! 😊" ],
+          "type": "description"
+        }, {
+          "actionLink": "https://booking.gwanakgongdan.or.kr/booking/1545?comcd=KWAN_AK02",
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EA%B4%80%EC%95%85%EA%B5%AC%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8_%EC%8B%A0%EB%A6%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0/%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EB%A1%9C%EA%B3%A0.jpeg"
+            }
+          },
+          "subtitle": "항목별 강사진 확인",
+          "title": "강사 확인하러가기",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
   "transitionRoutes": [ {
     "intent": "back.home",
     "triggerFulfillment": {
